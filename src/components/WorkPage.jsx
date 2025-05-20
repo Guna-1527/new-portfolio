@@ -8,28 +8,32 @@ const WorkPage = () => {
       title: "E-Commerce Platform",
       description: "A fully responsive online shopping platform...",
       category: "Web Development",
-      image: "https://images.ctfassets.net/y2ske730sjqp/1aONibCke6niZhgPxuiilC/2c401b05a07288746ddf3bd3943fbc76/BrandAssets_Logos_01-Wordmark.jpg?w=940",
+      image:
+        "https://images.ctfassets.net/y2ske730sjqp/1aONibCke6niZhgPxuiilC/2c401b05a07288746ddf3bd3943fbc76/BrandAssets_Logos_01-Wordmark.jpg?w=940",
     },
     {
       id: 2,
       title: "Mobile Banking App",
       description: "Secure banking application with biometric...",
       category: "Mobile App",
-      image: "https://images.ctfassets.net/y2ske730sjqp/1aONibCke6niZhgPxuiilC/2c401b05a07288746ddf3bd3943fbc76/BrandAssets_Logos_01-Wordmark.jpg?w=940",
+      image:
+        "https://images.ctfassets.net/y2ske730sjqp/1aONibCke6niZhgPxuiilC/2c401b05a07288746ddf3bd3943fbc76/BrandAssets_Logos_01-Wordmark.jpg?w=940",
     },
     {
       id: 3,
       title: "Data Visualization Dashboard",
       description: "Interactive dashboard displaying real-time analytics...",
       category: "Data Analytics",
-      image: "https://images.ctfassets.net/y2ske730sjqp/1aONibCke6niZhgPxuiilC/2c401b05a07288746ddf3bd3943fbc76/BrandAssets_Logos_01-Wordmark.jpg?w=940",
+      image:
+        "https://images.ctfassets.net/y2ske730sjqp/1aONibCke6niZhgPxuiilC/2c401b05a07288746ddf3bd3943fbc76/BrandAssets_Logos_01-Wordmark.jpg?w=940",
     },
     {
       id: 4,
       title: "Social Media Platform",
       description: "Community-focused platform with personalized feeds...",
       category: "Web Development",
-      image: "https://images.ctfassets.net/y2ske730sjqp/1aONibCke6niZhgPxuiilC/2c401b05a07288746ddf3bd3943fbc76/BrandAssets_Logos_01-Wordmark.jpg?w=940",
+      image:
+        "https://images.ctfassets.net/y2ske730sjqp/1aONibCke6niZhgPxuiilC/2c401b05a07288746ddf3bd3943fbc76/BrandAssets_Logos_01-Wordmark.jpg?w=940",
     },
   ];
 
@@ -75,16 +79,18 @@ const WorkPage = () => {
         className="mb-12"
       >
         <motion.div
-          className="text-black"
+          className=""
           initial={{ y: -60, opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}
           viewport={{ once: true, amount: 0.5 }}
           transition={{ duration: 0.5 }}
         >
-          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold font-montserrat uppercase leading-tight">
-            Project
-          </h2>
-          <div className="w-16 h-1 bg-lime-300 mt-2"></div>
+          <div>
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold font-montserrat uppercase leading-tight">
+            My <span className="text-lime-300">PROJECT</span>
+            </h2>
+            <div className="w-16 h-1 bg-lime-300 mt-2"></div>
+          </div>
         </motion.div>
       </motion.div>
 

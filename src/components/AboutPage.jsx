@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 
 const AboutPage = () => {
   return (
-    <div id='about' className="bg-black min-h-screen w-full relative px-4 py-6">
+    <div id='about' className="bg-gray-900 min-h-screen w-full relative px-4 py-6">
       {/* Top Left "About Me" Title */}
       <motion.div
         className="absolute top-30 left-16 text-white"
@@ -28,7 +28,7 @@ const AboutPage = () => {
           transition={{ duration: 0.8, delay: 0.3 }}
         >
           <p className="text-base sm:text-lg leading-relaxed">
-            Hello! I'm Prasanth, a frontend developer passionate about crafting beautiful and functional interfaces. I work mainly with <span className='bg-lime-300 text-black p-1'>React, Next.js, and Tailwind CSS</span> to build responsive and scalable web applications.
+            Hello! I'm Prasanth, a frontend developer passionate about crafting beautiful and functional interfaces. I work mainly with <span className='bg-lime-300 font-bold text-gray-900 text-black p-1'>React, Next.js, and Tailwind CSS</span> to build responsive and scalable web applications.
           </p>
           <p className="text-base sm:text-lg leading-relaxed mt-4">
             I enjoy solving problems, learning new technologies, and creating seamless user experiences. Let’s build something amazing together!

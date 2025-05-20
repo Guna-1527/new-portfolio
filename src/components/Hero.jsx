@@ -15,7 +15,7 @@ const Hero = () => {
         animate={{ opacity: 1 }}
         transition={{ delay: 1, duration: 0.6 }}
       >
-        <h1 className="text-[3rem] sm:text-[5rem] md:text-[7rem] lg:text-[10rem] uppercase tracking-widest font-anton">
+        <h1 className="text-[3rem] sm:text-[5rem] md:text-[7rem] lg:text-[10rem] text-gray-900 uppercase tracking-widest font-anton">
           guna prasanth
         </h1>
       </motion.div>
@@ -53,11 +53,11 @@ const Hero = () => {
           transition={{ delay: 2, duration: 0.6 }}
         >
           <div className="flex flex-col items-center md:items-start">
-            <p className="text-sm sm:text-base md:text-lg font-montserrat font-normal leading-6 max-w-[280px]">
+            <p className="text-sm sm:text-base md:text-lg text-gray-900 font-montserrat font-normal leading-6 max-w-[280px]">
               Hi, I'm Prasanth, a passionate frontend developer dedicated to
               creating enterprise-level web applications.
             </p>
-            <button className="mt-6 mb-6 px-6 py-4 cursor-pointer rounded-lg bg-lime-200 font-bold font-montserrat transition-all duration-300 hover:shadow-[7px_5px_56px_-14px_#C3D900] active:scale-95 active:shadow-[7px_5px_56px_-10px_#C3D900]">
+            <button className="mt-6 mb-6 px-6 py-4 cursor-pointer rounded-lg bg-lime-200 font-bold font-montserrat transition-all duration-300 text-gray-900 hover:shadow-[7px_5px_56px_-14px_#C3D900] active:scale-95 active:shadow-[7px_5px_56px_-10px_#C3D900]">
               Get in Touch
             </button>
           </div>

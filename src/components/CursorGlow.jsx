@@ -21,7 +21,7 @@ const AnimatedCursor = () => {
 
     window.addEventListener("mousemove", moveHandler);
 
-    const hoverTargets = document.querySelectorAll("h1, button, img");
+    const hoverTargets = document.querySelectorAll("button");
 
     hoverTargets.forEach((el) => {
       el.addEventListener("mouseenter", handleHoverIn);

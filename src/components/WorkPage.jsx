@@ -13,11 +13,12 @@ const WorkPage = () => {
     },
     {
       id: 2,
-      title: "Mobile Banking App",
+      title: "Sly Crypto Platform",
       description: "Secure banking application with biometric...",
-      category: "Mobile App",
+      category: "Web Development",
       image:
         "https://images.ctfassets.net/y2ske730sjqp/1aONibCke6niZhgPxuiilC/2c401b05a07288746ddf3bd3943fbc76/BrandAssets_Logos_01-Wordmark.jpg?w=940",
+        link: "https://sly-eight.vercel.app/"
     },
     {
       id: 3,
@@ -117,6 +118,7 @@ const WorkPage = () => {
                 <motion.div
                   key={project.id}
                   variants={itemVariants}
+                  
                   whileHover={{
                     scale: 1.03,
                     boxShadow: "0px 10px 30px rgba(0, 0, 0, 0.1)",

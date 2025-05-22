@@ -4,14 +4,6 @@ import { motion } from "framer-motion";
 const WorkPage = () => {
   const projects = [
     {
-      id: 1,
-      title: "E-Commerce Platform",
-      description: "A fully responsive online shopping platform...",
-      category: "Web Development",
-      image:
-        "https://images.ctfassets.net/y2ske730sjqp/1aONibCke6niZhgPxuiilC/2c401b05a07288746ddf3bd3943fbc76/BrandAssets_Logos_01-Wordmark.jpg?w=940",
-    },
-    {
       id: 2,
       title: "Sly Crypto Platform",
       description: "Secure banking application with biometric...",
@@ -21,21 +13,14 @@ const WorkPage = () => {
         link: "https://sly-eight.vercel.app/"
     },
     {
-      id: 3,
-      title: "Data Visualization Dashboard",
-      description: "Interactive dashboard displaying real-time analytics...",
-      category: "Data Analytics",
-      image:
-        "https://images.ctfassets.net/y2ske730sjqp/1aONibCke6niZhgPxuiilC/2c401b05a07288746ddf3bd3943fbc76/BrandAssets_Logos_01-Wordmark.jpg?w=940",
-    },
-    {
-      id: 4,
-      title: "Social Media Platform",
-      description: "Community-focused platform with personalized feeds...",
+      id: 1,
+      title: "Quiz Platform",
+      description: "A fully responsive online shopping platform...",
       category: "Web Development",
-      image:
-        "https://images.ctfassets.net/y2ske730sjqp/1aONibCke6niZhgPxuiilC/2c401b05a07288746ddf3bd3943fbc76/BrandAssets_Logos_01-Wordmark.jpg?w=940",
-    },
+      image: "https://static.vecteezy.com/system/resources/thumbnails/050/703/026/small/speech-bubble-for-comic-text-quiz-cartoon-comic-sign-effects-explosion-png.png",
+      link: "https://final-quiz.vercel.app/"
+    }
+    
   ];
 
   const containerVariants = {
